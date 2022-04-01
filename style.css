@@ -130,7 +130,7 @@
     height: 500px;
 }
 
-h1, h2 {
+.mainh {
     color: azure;
     text-align: center;
 }
@@ -138,4 +138,104 @@ h1, h2 {
 h1 {
     padding-top: 180px;
     padding-bottom: 80px;
+}
+
+
+.text { 
+    float: left;
+  width: 50%;
+}
+
+.image1 {
+float: right;
+margin-top: 10px;
+margin-bottom: 70px;
+}
+
+.block-2-photo {
+    width: 70%;
+    margin: auto;
+}
+
+ .block {
+    width: 70%;
+    margin: auto;
+}
+
+.clear {
+    clear: both;
+    padding-top: 180px;
+}
+
+.second {
+    color: black;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding: 0;
+}
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.photo {
+    width: 400px;
+    height: 400px;
+    margin: 0 0 40px;
+}
+
+.blue {
+    border: 2px solid blue;
+    background-color: blue;
+    padding: 10px 6px;
+    color: whitesmoke;
+    text-align: center;
+    width: 25%;
+    margin: auto;
+}
+
+.people {
+    height: 260px;
+    width: 194px;
+}
+
+.gallery2photo{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+}
+
+.gallery2 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.cards1 {
+    display: flex;
+background-color: white;
+border: 1px solid red;
+width: 30%;
+}
+.cards2 {
+    
+    width: 30%;
+}
+
+
+
+
+.cardstext1 {
+    float: right;
+    border: 1px solid red;
+} 
+
+.cardsboth {
+    width: 70%;
 }
